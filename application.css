@@ -1,0 +1,415 @@
+html, 
+body {
+    padding: 0; 
+    margin: 0;
+    font-size: 13px;
+    font-family:'Roboto', sans-serif ;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    width: 100%;
+    height: 100%;
+    background-color:whitesmoke;  
+
+        
+
+}
+
+
+header {
+    text-decoration: none;
+    color: white; 
+    background-color:#85929E;
+    margin-top: -15px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+
+.menu,.accueil {
+    
+    display: inline-flex;
+    flex-direction: row;
+	list-style: none;
+    float:right;
+    margin-right:7px; 
+ 
+
+}
+
+.menu, li, .images {
+	display: inline-block;
+  
+}
+
+.menu .accueil a {
+    color: white;
+    text-decoration: none;
+    font-weight:normal; 
+    margin-left:0,5rem;
+    margin-right:3rem;
+    border:1rem;
+  }
+
+.big-logo {
+    display:flex;
+    width: 15%;
+    height:15%;
+    margin-left: 42%; 
+    margin-right:60%;
+
+    
+
+}
+
+.images {
+    height:3rem;
+    width: auto;
+    line-height: 3rem; 
+    margin-top: 8px;
+}
+
+.customers {
+    display:block;
+    height: 55rem;
+    width:92rem; 
+    margin:auto;
+   
+}
+
+span.napis { 
+    display:block;
+    position:absolute;
+    bottom: 41%;
+    left:0;
+    padding: auto;
+    text-align:center;
+    z-index:10000;
+    width:100%;
+    color: white;
+    font-size: 120%;
+    font-weight:bold;
+ }
+
+     
+.srodtytul1 {
+    display:block;
+    color: #666666;
+    font-size: 180% !important;
+    margin: 4% auto 4% auto;
+    width: 40%;
+    height:10%;
+    font-weight:bold;
+    text-align:center;
+    
+ }
+
+
+.col-3 {
+  width: 27%;
+  height:60%;
+  float:left;
+  background-color: #BDC4CB;
+  color: white; 
+  text-align:center;
+  margin: 0 0 5% 5%;
+  border: 2px solid #BDC4CB;
+}
+
+.filar {
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-variant: normal;
+padding: 0;
+margin: 40% 10% 5% 10%;
+}
+
+.mini-images {
+    height:45%;
+    width:45%;
+    margin:-35% 0 0 0;
+
+
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.button1 {
+    display:block;
+    width: 25%;
+    height: 12%; 
+    border: 2px solid;
+    border-radius: 8px;
+    margin:auto;
+    font-size:1rem;
+    text-align:center;
+    font-weight: bold; 
+    color:white; 
+    background-color: #536878; 
+
+}
+
+
+.programme {
+    display:block;
+    font-size: 3rem;
+    font-weight:bold;
+    text-align:center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: #666666;
+}
+
+.opening-hours {
+    display:flex;
+    flex-direction: row;
+    margin:0;
+    width: 50% max-content;
+    height: auto; 
+  
+}
+.section1 {
+    font-size: 160%;
+    color:#666666;
+    margin-top:4%;
+    margin-left: 2%;
+    margin-bottom:2%;
+
+}
+.open-icon {
+    width:8%;
+    height:6%; 
+    margin:2% 0 0 5%;
+}
+
+.container1 {
+    display:inline-block;
+	max-width: 100%; 
+	margin: 0 auto;
+}
+
+.contenta {
+    width: 50%;
+    float: left;
+    margin: 0; 
+    text-align: center;
+    font-size:160%;
+    color:#666666;
+    line-height:0.5rem;
+    
+}
+
+.contentb {
+    width: 50%;
+    float: right;
+    text-align:center; 
+    font-size:160%;
+    color:#666666;
+    line-height:0.5rem;
+
+
+}
+
+
+.container2 {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto auto 5%;
+    text-align: center;
+   
+    
+    
+}
+
+.poesies {
+    float:left;
+    text-align: center;
+    margin:0;
+    width: 50%;
+    font-size:160%;
+    font-weight:bold;
+    color:#666666;
+   
+  
+    
+}
+
+
+.debat {
+    float:right;
+    text-align: center;
+    width: 50%;
+    font-size:160%;
+    font-weight:bold;
+    color:#666666;
+  
+    
+}
+
+
+.subtitle {
+    margin-top: 5%; 
+    text-align:center;
+    font-size: 2rem;
+    color:#666666
+}
+
+.subtitle2{
+    margin-top: 3%; 
+    text-align:center;
+    font-size: 2rem;
+    color:#666666
+}
+
+
+.container4 {
+    display:inline-flex;
+	width: 100%; 
+    height: auto;
+    background-color: #85929E;
+	
+
+}
+
+#logo-white-cafe {
+    width: 24%;
+    height: auto;
+    margin-left:20%;
+    margin-top:3%;
+
+}
+
+.intro {
+    font-size: 1rem;
+    color: white;
+    width:100%; 
+
+}
+
+#linkedin, #twitter, #facebook {
+    width: 3%;
+    height: auto;
+ 
+
+}
+
+
+.container5 {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+ 
+  
+}
+
+.one {
+    flex-basis: 50%;
+    
+}
+
+.two {
+    flex-basis: 50%;
+   
+
+}
+
+#container5 > .one {
+    flex-basis:40%;
+}
+
+.mr-coffee-adress {
+    display:block;
+    color:#666666; 
+    text-align:center;
+    font-size: 1.5rem !important;
+    font-weight:lighter; 
+
+
+}
+
+.location-mr-coffee {
+    display:block;
+    font-size:1rem;
+    color: #666666;
+    line-height: 1rem;
+    margin-left:25%;
+    margin-top:5%;
+
+}
+
+.contact {
+    display:block;
+    font-size:1rem;
+    color: #666666;
+    line-height: 1rem;
+    margin-left:25%;
+    margin-top:2%;
+}
+
+#mapgoogle {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 10%;
+    margin-bottom:5%;
+
+
+
+}
+
+.container.storia {
+    display:inline-block;
+    max-width: 100%; 
+	margin: 0 auto;
+    
+    
+}
+
+
+.information {
+    display:block;
+    max-width: 40%;
+    margin-left:5%;
+    color:#666666 !important;
+    line-height:2rem;
+
+}
+
+.photo {
+    display:block;
+    width:80%;
+  
+    
+}
+#coffee-types {
+    max-width: 100%;
+
+   
+}
+
+
+.container.storia2 {
+    display:inline-block;
+    max-width: 100%; 
+	margin: 0 auto;
+    
+    
+}
+
+
+.storia {
+    display:block;
+    max-width: 40%;
+    margin-left:5%;
+    color:#666666 !important;
+    line-height:2rem;
+
+.photocoffeshop {
+    display:block;
+     width:80%;
+
+}
