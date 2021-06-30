@@ -9,12 +9,13 @@
     <meta name="keyword" content="Mr.Coffee,contact Mr.Coffee,location, café de spécialité, soirées poésie, rencontres avec les auteurs, ateliers d'écriture, lieu de rencontre">
     <link href="application.css" rel="stylesheet" type="text/css">
     <link rel="alternate" hreflang="fr-FR" href="https://example.com/fr"/>
+    <script defer src="form.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-            <li><a href="/www/index.html"><img class="images" src="assets/full_logo_white.png" alt="logo-mr-coffee"></a></li>
+            <li><a href="index.html"><img class="images" src="assets/full_logo_white.png" alt="logo-mr-coffee"></a></li>
             <ul class="menu">
                 <li class="accueil">
                 <a href="contact.html">Nous contacter</a>
@@ -23,11 +24,79 @@
                  <a href="about.html">Qui sommes-neus</a>
                  </li>
                  <li class="accueil">
-                 <a href="/www/index.html">Accueil</a>
+                 <a href="index.html">Accueil</a>
                  </li>
             </ul>
         </nav>
         <div><img class="big-logo" src="assets/logo_mrcoffee.png" alt="logo-Mr-Coffee-large"> </div> 
+        <div class ="formu-contact">
+            <H1>Dites nous tout</H1>
+        </div>
+        <div id="error"></div>
+        <form id="form" >
+        <p class = "para">
+        <label class = "sticker" for="Nom">Nom*</label>
+       <input class = "area" type="text"  name="Nom" size="80" value="" id="nom" >
+        </p>
+        <p class = "para">
+        <label class = "sticker" for="Prenom">Prénom*</label>
+        <input class ="area" type="text"  name="Prenom" size="80" value="" id="prenom" >
+        </p>
+        <p class = "para">
+        <label class = "sticker" for="Telephone">Téléphone</label>
+        <input class="area" type="text" name="Telephone" size="80" value="" id="Telephone" >
+        </p>
+        <p class ="para">
+        <label class = "sticker" for="Adresse mail">Adresse mail*</label>
+        <input class ="area" type="email"  pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z0-9.-]{1,}[.]{1}[a-zA-Z0-9]{2,}" name="e-mail"  size="80" value="" id="adresseMail" >
+        </p>
+        <label class ="sticker">Message*</label>
+        <div class="message">
+        <textarea name="Message" style=" background-color: #BDC4CB" id ="mesToSend"  rows="6" cols="80"  placeholder="Tapez votre message ici" style="color:#FFFFFF" ></textarea>
+        </div>
+        <!-- <p class = "buttontosub">
+        <input class="subbutton" type="submit" name="submit" value="Envoyer">
+        </p> -->
+        
+<!-- Trigger/Open The Modal -->
+<!-- <button type="submit" data-modal-target="#modal" id="myBtn">Envoyer</button> to był dobry -->
+<button id="myBtn">Envoyer</button>
+<!-- <button type="submit">Submit</button> -->
+</form>
+        <div class="modal" id="modal">
+            <span class="closer">&times;</span>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">    -->
+             
+                <!-- <span aria-hidden="true">&times;</span> </button>  -->
+                <div class="log-black">
+                    <img id="black-mr" src="assets/logo_dark.png" alt="black-log-MR-COFFEE">
+            <div class="modal-header">
+                <p class="titles">MERCI</p> 
+                <p class ="subtit"> Votre message a bien ete envoye!</p>
+                <!-- <button data-closing-button class="closeButton">&times; </button>  -->
+                </div>
+            <div class="modal-body">
+                <p class ="respond"> Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.Coffee</p></div>
+                <button id="fermer">FERMER</button>
+              
+             </div> 
+            </div>
+        </div> 
+        <div class="active" id="over"></div> 
+        <!-- button id="myBtn">Open Modal</button>  -->
+
+        <!-- The Modal
+        <button id="myBtn">Open Modal</button>
+        <div id="myModal" class="modal">
+        
+          Modal content -->
+          <!-- <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+          </div>
+        
+        </div>  --> 
+
         <div class="mr-coffee-adress">
            <H1>On vous attend !</H1></div>
         <div class="location-mr-coffee">
