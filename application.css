@@ -327,9 +327,236 @@ margin: 40% 10% 5% 10%;
     text-align:center;
     font-size: 1.5rem !important;
     font-weight:lighter; 
+    margin-top:5%;
 
 
 }
+
+.formu-contact {
+    display:block;
+    color:#666666; 
+    text-align:center;
+    font-size: 1.5rem !important;
+    font-weight:lighter; 
+
+}
+
+
+.para {
+    display:block;
+    text-align:center;
+    padding: 0;
+    margin-bottom: 0.5rem !important;
+    
+   
+}
+
+.area {
+    width: 42%;
+    margin-bottom:0;
+    height: 3rem;
+    background-color: #BDC4CB;
+    text-align: center;
+  
+}
+
+
+
+.sticker {
+    display:block;
+    text-align: left;
+    color: #666666;
+    margin-left:29%;
+    padding:0;
+    
+
+
+
+}
+
+.message {
+    text-align: center; 
+    font-style: #ffffff;
+
+
+
+}
+
+#error {
+    color: black;
+    text-align: center;
+}
+
+::placeholder { 
+    color: white;
+    font-weight: bold;
+   
+  } 
+
+#myBtn{
+    display:block;
+    width: 20% !important;
+    height: 4rem;
+    border-radius: 4px solid;
+    margin:auto;
+    font-size:1rem;
+    text-align:center;
+    font-weight: bold; 
+    color:white; 
+    background-color: #666666; 
+
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+} 
+
+.modal {
+position: fixed;
+display:none;
+top: 50%;
+left: 50%; 
+color: #666666; 
+transform:translate(-50%, -50%) ;
+ border: 2px solid #666666; 
+/* border-radius: 20px; */
+/* z-index:10; */
+background-color: #ffffff;
+width: 85%;
+max-width:70%;
+
+justify-content: center;
+align-items: center; 
+/* &__modal-header-title-data-closing-button {
+    display:flex;
+    justify-content: flex-end;
+} */
+/* } */
+}
+
+
+  
+
+
+
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1); 
+}
+
+/* .modal-header {
+    padding: 5px 10px;
+    display:flex;
+    justify-content: center;
+    text-align: center; */
+    
+    /* border-bottom: 1px solid #666666; */
+   
+    
+.closer {
+    position: fixed;
+    opacity: 0;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+
+} 
+    
+
+.respond {
+    display:flex;
+    width:70%;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* .close {
+display: flex;
+flex-wrap: wrap;
+justify-items: flex-end;
+ margin-bottom:55%;
+ margin-left: 5%;
+
+
+}  */
+
+.titles {
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.subtit {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+ 
+/* .modal-header .closeButton { 
+    display:flex;
+    justify-content: flex-end; 
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 5%;
+    
+ 
+
+}   */
+
+#fermer {
+    display:block; 
+    width: 35% !important;
+    height: 3.5rem;
+    border-color: #85929E;
+    border-radius: 12px;
+    font-size:1rem;
+    margin-left: auto;
+    margin-right: auto;   
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: bold; 
+    color:white; 
+    background-color: #85929E;
+    
+   
+}
+
+#black-mr {
+    width: 10%;
+    height: 5%;
+     margin-top:10%; 
+    margin-left:0;
+    
+
+}
+/* #over {
+    position:fixed;
+    opacity:0;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    pointer-events: none;
+    background-color: yellow;
+}  */
+
+#over.active {
+    opacity: 1;
+    pointer-events: all;
+}  
 
 .location-mr-coffee {
     display:block;
@@ -408,8 +635,11 @@ margin: 40% 10% 5% 10%;
     color:#666666 !important;
     line-height:2rem;
 
-.photocoffeshop {
+
+
+#photocoffeeshop {
     display:block;
      width:80%;
 
 }
+
