@@ -1,3 +1,4 @@
+
 const nom = document.getElementById('nom')
 const prenom = document.getElementById('prenom')
 const mail = document.getElementById('adresseMail')
@@ -159,8 +160,6 @@ modal.style.display = "none";
 //     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 //     return re.test(String(email).toLowerCase());
 // }
-
-
 
 
 
